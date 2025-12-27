@@ -1,31 +1,57 @@
+# Convertly 🚀
 
-# Convertly
+**Convertly** is a modern, web-based file conversion tool built with
+**Next.js** that allows users to convert images, audio, and video files
+directly in the browser.
 
-Convertly is an online file conversion tool designed to simplify the process of converting multimedia files effortlessly.
+All conversions run **locally on the user's device** using
+WebAssembly-powered FFmpeg --- meaning your files never leave your
+computer.
 
-## Features
+------------------------------------------------------------------------
 
-- **Multimedia Conversion:** Convert images, audio, and videos easily.
-- **Local Processing:** All conversions are processed locally on your device for enhanced privacy and security.
-- **Free Service:** Convertly is completely free to use.
-- **No Data Storage:** We do not save or store your files during the conversion process.
+## ✨ Features
 
-## Getting Started
+-   🔄 **Multimedia Conversion**\
+    Convert images, audio, and video files to multiple formats.
 
-To start using Convertly, simply visit the following website: [files-converter](https://files-converter.vercel.app/).
+-   🖥️ **Client-Side Processing**\
+    All conversions are performed locally in the browser using
+    `@ffmpeg/ffmpeg`.
 
-## How to Use
+-   🔐 **Privacy First**\
+    No uploads, no servers, no tracking --- your files stay on your
+    device.
 
-1. Upload your file(s) to Convertly.
-2. Select the desired output format.
-3. Click "Convert" to start the conversion process.
-4. Download your converted file(s) once the process is complete.
+-   ⚡ **Fast & Responsive UI**\
+    Built with React, Tailwind CSS, and Radix UI components.
 
-## How to run
+-   📦 **Batch Conversion**\
+    Upload and convert multiple files at once.
 
-If you want to run Convertly locally, follow these steps:
+-   ⬇️ **One-click Download**\
+    Download individual files or all converted files at once.
 
-1. Clone the repository
-2. Navigate into the project directory
-3. install dependencies (npm install)
-4. Start the server with the following command: npm run dev
+------------------------------------------------------------------------
+
+## 🛠️ Tech Stack
+
+-   **Framework:** Next.js 14
+-   **Language:** TypeScript
+-   **UI:** Tailwind CSS, Radix UI
+-   **File Handling:** react-dropzone
+-   **Media Processing:** FFmpeg (WebAssembly)
+-   **Icons:** lucide-react
+
+------------------------------------------------------------------------
+
+## ▶️ Running Locally
+
+``` bash
+git clone https://github.com/nysuri/File-converter.git
+cd fileconverter
+npm install
+npm run dev
+```
+
+Open http://localhost:3000
